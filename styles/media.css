@@ -1,0 +1,13 @@
+@media screen and (max-width: 600px) {
+  header {
+    padding: 0;
+  }
+  header .right-header {
+    padding: 2rem !important;
+  }
+  .theme-btn {
+    height: 10px;
+    width: 10px;
+  }
+}
+/*# sourceMappingURL=media.css.map */
