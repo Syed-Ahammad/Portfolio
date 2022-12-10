@@ -13,6 +13,15 @@
         integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
         <script src="https://kit.fontawesome.com/20619d3d7b.js" crossorigin="anonymous"></script>
+        <script type="text/javascript"
+        src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js">
+</script>
+<script type="text/javascript">
+   (function(){
+      emailjs.init("D1N7BrQqIpTECqR86");
+   })();
+</script>
+
 </head>
 <body class="main-content">
 
@@ -29,10 +38,13 @@
                     Hi, I'm <span> Syed Ahammad.
                     </span> A Web Developer.
                 </h1>
-                <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dicta magni, illum quam soluta saepe eius quasi magnam in atque modi enim repellat ipsam sed nobis totam cupiditate, maxime, numquam optio.</p>
+                <p> To obtain a chance to use established skills in computer technology and provides me with the
+                    opportunity to contribute experience, potentialities and eagerness and explore my career to more
+                    dynamic profession. Accomplish a fast track career in an esteemed group of organization, which has
+                    the opportunity of career development.</p>
                <div class="btn-con">
-                    <a href="" class="main-btn">
-                        <span class="btn-text"> Download CV</span>
+                    <a href="https://drive.google.com/file/d/1706Ij1iZkjapjmfUBMBjDKSbZFpM3p6x/view?usp=share_link" class="main-btn">
+                        <span class="btn-text"> Download Resume</span>
                         <span class="btn-icon"><i class="fa-solid fa-download"></i></span>
                     </a>
                </div>
@@ -48,10 +60,15 @@
             <div class="about-container">
                 <div class="left-about">
                     <h4>Information About me</h4>
-                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sint, ut recusandae mollitia ad architecto ex magnam corrupti possimus vel  Quisquam. <br> <br> Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ipsum, asperiores. Labore, expedita debitis, eligendi alias animi esse commodi quam officia?</p>
+                    <p>In my current role as a Junior Web Developer above Technologies, I design, code, and work for various websites. In my
+
+                        latest project, I designed a website for resale products, which features buyers and sellers who can sell or buy their second-
+                        hand products. I can develop strong communication and teamwork skills by working collaboratively with marketing,
+                        
+                        design, and production teams.</p>
                     <div class="btn-con">
-                        <a href="" class="main-btn">
-                            <span class="btn-text"> Download CV</span>
+                        <a href="https://drive.google.com/file/d/1706Ij1iZkjapjmfUBMBjDKSbZFpM3p6x/view?usp=share_link" class="main-btn">
+                            <span class="btn-text"> Download Resume</span>
                             <span class="btn-icon"><i class="fa-solid fa-download"></i></span>
                         </a>
                     </div>
@@ -59,13 +76,13 @@
                 <div class="right-about">
                     <div class="about-item">
                         <div class="abt-text">
-                            <p class="large-text">360+</p>
+                            <p class="large-text">36+</p>
                             <p class="small-text">Projects <br> Completed.</p>
                         </div>
                     </div>
                     <div class="about-item">
                         <div class="abt-text">
-                            <p class="large-text">5+</p>
+                            <p class="large-text">2+</p>
                             <p class="small-text">years of<br> experience.</p>
                         </div>
                     </div>
@@ -123,18 +140,18 @@
                         </div>
                     </div>
                     <div class="progress-bar">
-                        <p class="prog-title">react.js</p>
+                        <p class="prog-title">React JS</p>
                         <div class="progress-con">
-                            <p class="progress-text">30%</p>
+                            <p class="progress-text">70%</p>
                             <div class="progress">
                                 <span class="react"></span>
                             </div>
                         </div>
                     </div>
                     <div class="progress-bar">
-                        <p class="prog-title">wordpress</p>
+                        <p class="prog-title">Express JS</p>
                         <div class="progress-con">
-                            <p class="progress-text">80%</p>
+                            <p class="progress-text">60%</p>
                             <div class="progress">
                                 <span class="wp"></span>
                             </div>
@@ -360,7 +377,7 @@
                                     Email
                                 </div>
                                 <p>
-                                    :  syedahammad36@gmail.com
+                                    :  syedahammad54@gmail.com
                                 </p>
                             </div>
                             <div class="contact-item">
@@ -409,26 +426,23 @@
                         </div>
                     </div>
                     <div class="right-contact">
-                        <from action="" class="contact-from">
+                        <form  action="" class="contact-from" id="contact_form">
                             <div class="input-control i-c-2">
-                                <input type="text" required placeholder="YOUR NAME">
-                                <input type="email" required placeholder="YOUR EMAIL">
+                                <input name="user_name" type="text" required placeholder="YOUR NAME">
+                                <input name="user_email" type="email" required placeholder="YOUR EMAIL">
                             </div>
                             <div class="input-control">
-                                <input type="text" required placeholder="ENTER SUBJECT">
+                                <input name="subject" type="text" required placeholder="ENTER SUBJECT">
                             </div>
                             <div class="input-control">
-                                <textarea name="" id="" cols="15" rows="8" placeholder="Message Here...."></textarea>
+                                <textarea name="message" id="" cols="15" rows="8" placeholder="Message Here...."></textarea>
                             </div>
                             <div class="submit-btn">
-                                <a href="#" class="main-btn">
-                                    <span class="btn-text">Submit</span>
-                                    <span class="btn-icon">
-                                        <i class="fa-solid fa-download"></i>
-                                    </span>
+                                <a class="form-btn">
+                                    <input class="btn-form-text" type="submit" value="Submit">
                                 </a>
                             </div>
-                        </from>
+                        </form>
                     </div>
                 </div>
             </div>
@@ -455,5 +469,6 @@
         <i class="fa-solid fa-circle-half-stroke"></i>
     </div>
     <script src="app.js"></script>
+    <script src="email.js"></script>
 </body>
 </html>

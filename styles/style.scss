@@ -6,7 +6,7 @@
 }
 :root{
     --color-primary: #191b2b;
-    --color-secondary: #27ae60;
+    --color-secondary: #dd23ce;
     --color-white: #ffffff;
     --color-black: #000;
     --color-grey-0: #f8f8f8;
@@ -21,16 +21,16 @@
     
 }
 .light-mode{
-    --color-primary: #454eff;
-    --color-secondary: #ff00ea;
+    --color-primary: #9c45ff;
+    --color-secondary: #c8ff00;
     --color-white: #ffffff;
-    --color-black: #000dff;
-    --color-grey-0: #f8f8f8;
-    --color-grey-1: #dbe1e8;
-    --color-grey-2: #b2becd;
-    --color-grey-3: #6c7983;
-    --color-grey-4: #242323;
-    --color-grey-5: #000000;
+    --color-black: #4f58fc;
+    --color-grey-0: #000000;
+    --color-grey-1: #131313;
+    --color-grey-2: #292929;
+    --color-grey-3: #333333;
+    --color-grey-4: #585858;
+    --color-grey-5: #acabab;
     --color-grey-6: #ffffff;
 }
 body{
@@ -171,14 +171,16 @@ section{
         position: relative;
         .h-shape{
             transition: all .4s ease-in-out;
-            width: 65%;
+            width: 86%;
             height: 100%;
             background-color: var(--color-secondary);
             position: absolute;
+            opacity: .9;
             left: 0;
             right: 0;
             z-index: -1;
-            clip-path: polygon(0 0, 46% 0, 79% 100%, 0 100%);
+            // clip-path: polygon(0 0, 46% 0, 79% 100%, 0 100%);
+            clip-path: polygon(50% 0, 100% 50%, 50% 100%, 0 50%);
 
         }
         .image{
@@ -187,6 +189,7 @@ section{
             width: 68%;
             margin-left: 4rem;
             background-color: var(--color-black);
+            opacity: .9;
             transition: all .4s ease-in-out;
             img{
                 width: 100%;
@@ -693,7 +696,33 @@ section{
             transition: all .4s ease-in-out;
         }
     }
-} .main-tittle {
+} 
+.btn-con{
+    display: flex;
+    align-self: flex-start;
+}
+
+.form-btn{
+    border-radius: 100px;
+    color: inherit;
+    position: relative;
+    // border: 1px solid var(--color-secondary);
+    display: flex;
+    align-self: flex-start;
+    align-items: center;
+    overflow: hidden;
+    .btn-form-text{
+        background-color: #2a2e35;
+         border-radius: 100px;
+         border: 2px solid var(--color-secondary);
+         font-weight: 600;
+         color: white;
+        padding: 1rem 2rem;
+        font-size: 18px;
+    
+}
+}
+.main-tittle {
      text-align: center;
 
  }
